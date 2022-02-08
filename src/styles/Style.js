@@ -8,7 +8,7 @@ export const NavStyle = styled.nav`
     justify-content: space-around;
     border: 3px solid black;
     padding: 8px;
-    width: 90%;
+    width: 90vw;
     margin: auto;
 `
 export const NavLink = styled(Link) `

@@ -3,8 +3,7 @@ import {NavStyle, NavLink, NavItems, NavItem} from '../styles/Style'
 import { Link } from "react-router-dom";
 
 const NewNav = styled(NavLink)`
-  border: 1px black;
-  color: red;
+  color: gold;
 `;
 
 function Header(props) {
@@ -13,15 +12,15 @@ function Header(props) {
     <header>
       <h1>My Portfolio Page</h1>
       <NavStyle>
-        <NavLink to="/">
+        <NewNav to="/">
           HOME
-        </NavLink>
+        </NewNav>
         <NewNav  to="/about">
           ABOUT
         </NewNav>
-        <NavLink to="/projects">
+        <NewNav to="/projects">
           PROJECTS
-        </NavLink>
+        </NewNav>
       </NavStyle>
     </header>
   );

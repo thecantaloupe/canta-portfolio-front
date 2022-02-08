@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="wrapper">
       <Header />
       <Switch>
         <Route exact path="/">
@@ -28,7 +29,7 @@ function App() {
         </Route>
       </Switch>
       <Footer />
-    </div>
+    </div></div>
   );
 }
 
